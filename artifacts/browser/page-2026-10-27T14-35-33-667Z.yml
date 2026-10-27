@@ -1,0 +1,38 @@
+- generic [ref=f17e7]:
+  - img "Barrique bottle" [ref=f17e10]
+  - generic [ref=f17e12]:
+    - heading "TRADITION" [level=1] [ref=f17e14]
+    - heading "passion" [level=1] [ref=f17e16]
+    - heading "FLAVORS" [level=1] [ref=f17e18]
+  - img "Vineyard landscape at golden hour" [ref=f17e20]
+  - generic [ref=f17e22]:
+    - heading "a unique experience of plesant sensation" [level=1] [ref=f17e23]: a uniqueexperienceofplesantsensation
+    - heading "a unique experience of plesant sensation" [level=1] [ref=f17e25]: a uniqueexperienceofplesantsensation
+  - generic [ref=f17e29]:
+    - paragraph [ref=f17e30]: every drop of our wine is the culmination of a succession of moments and attentive care
+    - generic [ref=f17e31]:
+      - img "Barrique red wine bottle" [ref=f17e32]
+      - img "Barrique white wine bottle" [ref=f17e33]
+    - generic [ref=f17e34]:
+      - button "Red" [pressed] [ref=f17e35] [cursor=pointer]
+      - button "White" [ref=f17e38] [cursor=pointer]
+    - link [ref=f17e41] [cursor=pointer]:
+      - /url: "#"
+      - heading "View More" [level=1] [ref=f17e42]
+  - generic [ref=f17e43]:
+    - img "Red wine glass on a table" [ref=f17e44]
+    - img "Close-up of a glass of red wine" [ref=f17e45]
+    - img "Close-up of a glass of white wine" [ref=f17e46]
+  - generic [ref=f17e47]:
+    - img "Winery detail" [ref=f17e48]
+    - img "Winery detail" [ref=f17e49]
+  - heading "extraordinary identity" [level=1] [ref=f17e51]
+  - generic [ref=f17e52]:
+    - heading "Subscribe to our newsletter" [level=1] [ref=f17e54]: Subscribe toour newsletter
+    - generic [ref=f17e56]:
+      - generic [ref=f17e57]: Email
+      - textbox "Email" [ref=f17e58]
+      - button "Submit" [ref=f17e59] [cursor=pointer]
+      - generic [ref=f17e60] [cursor=pointer]:
+        - checkbox "Maecenas mattis sed elit sed elementum." [ref=f17e62]
+        - text: Maecenas mattis sed elit sed elementum.

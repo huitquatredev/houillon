@@ -1,0 +1,81 @@
+---
+import { assets, copy } from "../../../data/landing3"
+---
+
+<div class="container-paragraph in" data-picker data-selected="red">
+  <p class="main-paragraph black">{copy.picker.text}</p>
+
+  <div class="wrapper-change-image">
+    <img
+      class="bottle-image-landing3"
+      src={assets.bottleRed}
+      alt="Barrique red wine bottle"
+      width="646"
+      height="1000"
+      loading="lazy"
+      decoding="async"
+      data-bottle="red"
+    />
+    <img
+      class="bottle-image-landing-3"
+      src={assets.bottleWhite}
+      alt="Barrique white wine bottle"
+      width="646"
+      height="1000"
+      loading="lazy"
+      decoding="async"
+      data-bottle="white"
+    />
+  </div>
+
+  <div class="navigation-wrap layout-3">
+    <button class="button-bottle-landing-3" type="button" data-bottle-btn="red">
+      <span class="wrapper-image-3"><span class="wrapper-3"></span></span>
+      <span class="button-text">{copy.picker.colors[0]}</span>
+    </button>
+    <button
+      class="button-bottle-landing-3"
+      type="button"
+      data-bottle-btn="white">
+      <span class="wrapper-image-3"><span class="wrapper-3 white"></span></span>
+      <span class="button-text">{copy.picker.colors[1]}</span>
+    </button>
+  </div>
+
+  <a class="button-layout-2" href="#" data-noop>
+    <h1 class="heading-button">{copy.picker.cta}</h1>
+    <span class="wrapper-landing-3" aria-hidden="true"></span>
+  </a>
+</div>
+
+<div class="container-image">
+  <img
+    class="bottle-image-landing-2"
+    src={assets.glass1}
+    alt="Red wine glass on a table"
+    width="1000"
+    height="1500"
+    loading="lazy"
+    decoding="async"
+  />
+  <!-- <img
+    class="bottle-image-landing-2 absolute"
+    src={assets.glass2}
+    alt="Close-up of a glass of red wine"
+    width="662"
+    height="886"
+    loading="lazy"
+    decoding="async"
+    data-glass="red"
+  />
+  <img
+    class="bottle-image-landing-2 absolute"
+    src={assets.glass3}
+    alt="Close-up of a glass of white wine"
+    width="662"
+    height="886"
+    loading="lazy"
+    decoding="async"
+    data-glass="white"
+  /> -->
+</div>

@@ -1,0 +1,15 @@
+---
+import { copy } from "../../../data/landing3";
+---
+
+<div class="container-paragraph" data-l3="up">
+  {
+    copy.statement.paragraphs.map((paragraph) => (
+      <p class="main-paragraph black">{paragraph}</p>
+    ))
+  }
+  <a class="button-layout-2" href="#" data-noop>
+    <h1 class="heading-button _2">{copy.statement.cta}</h1>
+    <span class="wrapper-landing-3" aria-hidden="true"></span>
+  </a>
+</div>

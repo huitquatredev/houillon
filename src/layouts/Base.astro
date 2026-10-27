@@ -1,0 +1,48 @@
+---
+interface Props {
+  title?: string
+  description?: string
+}
+
+const {
+  title = "Barrique — Tradition, passion, flavors",
+  description = "A winery experience told through a horizontal, scroll-driven narrative."
+} = Astro.props
+
+import "@fontsource/italiana/400.css"
+import "@fontsource/kumbh-sans/300.css"
+import "@fontsource/kumbh-sans/400.css"
+import "@fontsource/kumbh-sans/700.css"
+import "@fontsource/poiret-one"
+import "../styles/tokens.css"
+import "../styles/base.css"
+import "../styles/landing.css"
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#ffffff" />
+    <title>{title}</title>
+    <script is:inline>
+      ;(function () {
+        var root = document.documentElement
+        root.classList.remove("no-js")
+        root.classList.add("js")
+        if (
+          window.matchMedia(
+            "(min-width: 992px) and (prefers-reduced-motion: no-preference)"
+          ).matches
+        ) {
+          root.classList.add("is-horizontal")
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

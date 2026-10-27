@@ -1,0 +1,35 @@
+---
+import { copy } from "../../../data/landing3";
+---
+
+<div class="contact-grid-card-text">
+  <div class="overflow-mask-landing-3">
+    <h1 class="overflow-heading-2 white contact">
+      {copy.newsletter.title[0]}<br />{copy.newsletter.title[1]}
+    </h1>
+  </div>
+
+  <div class="contact-form-landing-3">
+    <form class="form-landing-3" data-newsletter novalidate>
+      <label class="visually-hidden" for="newsletter-email">Email</label>
+      <input
+        class="email-field"
+        id="newsletter-email"
+        type="email"
+        name="email"
+        placeholder="Email"
+        autocomplete="email"
+      />
+      <input
+        class="submit-button-password layout-2"
+        type="submit"
+        value={copy.newsletter.cta}
+      />
+      <label class="checkbox-field-2">
+        <span class="checkbox-4" aria-hidden="true"></span>
+        <input type="checkbox" name="consent" />
+        <span class="checkbox-label-3">{copy.newsletter.note}</span>
+      </label>
+    </form>
+  </div>
+</div>

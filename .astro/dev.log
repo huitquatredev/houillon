@@ -1,0 +1,25 @@
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"Generated 0ms","label":"types","level":"info"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":" astro  v7.4.2 ready in 235 ms\n┃ Local    http://localhost:4321/\n┃ Network  use --host to expose","label":"SKIP_FORMAT","level":"info"}
+{"message":"watching for file changes...","label":null,"level":"info"}
+{"message":"Could not import `../../data/landing3`.\n  Hint:\n    This is often caused by a typo in the import path. Please make sure the file exists.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/failed-to-load-module-ssr/\n  Stack trace:\n    at loadAndTransform (file:///home/huitquatre-dev/code/astro/houillon/node_modules/vite/dist/node/chunks/node.js:20144:31)","label":null,"level":"error"}
+{"message":"Could not import `../../data/landing3`.\n  Hint:\n    This is often caused by a typo in the import path. Please make sure the file exists.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/failed-to-load-module-ssr/\n  Stack trace:\n    at loadAndTransform (file:///home/huitquatre-dev/code/astro/houillon/node_modules/vite/dist/node/chunks/node.js:20144:31)","label":null,"level":"error"}
+{"message":"Could not import `../../data/landing3`.\n  Hint:\n    This is often caused by a typo in the import path. Please make sure the file exists.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/failed-to-load-module-ssr/\n  Stack trace:\n    at loadAndTransform (file:///home/huitquatre-dev/code/astro/houillon/node_modules/vite/dist/node/chunks/node.js:20144:31)","label":null,"level":"error"}
+{"message":"Could not import `../../data/landing3`.\n  Hint:\n    This is often caused by a typo in the import path. Please make sure the file exists.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/failed-to-load-module-ssr/\n  Stack trace:\n    at loadAndTransform (file:///home/huitquatre-dev/code/astro/houillon/node_modules/vite/dist/node/chunks/node.js:20144:31)","label":null,"level":"error"}
+{"message":"Could not import `../../data/landing3`.\n  Hint:\n    This is often caused by a typo in the import path. Please make sure the file exists.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/failed-to-load-module-ssr/\n  Stack trace:\n    at loadAndTransform (file:///home/huitquatre-dev/code/astro/houillon/node_modules/vite/dist/node/chunks/node.js:20144:31)","label":null,"level":"error"}
+{"message":"[200] / 33ms","label":null,"level":"info"}
+{"message":"[200] / 3ms","label":null,"level":"info"}
+{"message":"src/scripts/intro.ts","label":"watch","level":"info"}
+{"message":"[200] / 5ms","label":null,"level":"info"}
+{"message":"[200] / 3ms","label":null,"level":"info"}
+{"message":"src/scripts/intro.ts","label":"watch","level":"info"}
+{"message":"[200] / 4ms","label":null,"level":"info"}
+{"message":"[200] / 2ms","label":null,"level":"info"}
+{"message":"/src/styles/base.css","label":"watch","level":"info"}
+{"message":"Configuration file updated. Restarting...","label":null,"level":"info"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"server restarted.","label":"vite","level":"info"}
+{"message":"[200] / 22ms","label":null,"level":"info"}
+{"message":"[200] / 4ms","label":null,"level":"info"}

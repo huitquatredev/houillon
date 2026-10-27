@@ -1,0 +1,8 @@
+:root {
+  --black: #2c2c2c;
+  --black-2: #0d0d0d;
+  --dark-red: #920707;
+  --white: #ffffff;
+  --gold: #c0995c;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}

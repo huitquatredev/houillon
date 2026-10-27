@@ -1,0 +1,44 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e7]:
+    - img "Barrique bottle" [ref=f11e10]
+    - generic [ref=f11e12]:
+      - heading "TRADITION" [level=1] [ref=f11e14]
+      - heading "passion" [level=1] [ref=f11e16]
+      - heading "FLAVORS" [level=1] [ref=f11e18]
+    - img "Vineyard landscape at golden hour" [ref=f11e20]
+    - generic [ref=f11e22]:
+      - heading "a unique experience of plesant sensation" [level=1] [ref=f11e23]: a uniqueexperienceofplesantsensation
+      - heading "a unique experience of plesant sensation" [level=1] [ref=f11e25]: a uniqueexperienceofplesantsensation
+    - generic [ref=f11e29]:
+      - paragraph [ref=f11e30]: every drop of our wine is the culmination of a succession of moments and attentive care
+      - generic [ref=f11e31]:
+        - img "Barrique red wine bottle" [ref=f11e32]
+        - img "Barrique white wine bottle" [ref=f11e33]
+      - generic [ref=f11e34]:
+        - button "Red" [pressed] [ref=f11e35] [cursor=pointer]
+        - button "White" [ref=f11e38] [cursor=pointer]
+      - link [ref=f11e41] [cursor=pointer]:
+        - /url: "#"
+        - heading "View More" [level=1] [ref=f11e42]
+    - generic [ref=f11e43]:
+      - img "Red wine glass on a table" [ref=f11e44]
+      - img "Close-up of a glass of red wine" [ref=f11e45]
+      - img "Close-up of a glass of white wine" [ref=f11e46]
+    - generic [ref=f11e47]:
+      - img "Winery detail" [ref=f11e48]
+      - img "Winery detail" [ref=f11e49]
+    - heading "extraordinary identity" [level=1] [ref=f11e51]
+    - generic [ref=f11e52]:
+      - heading "Subscribe to our newsletter" [level=1] [ref=f11e54]: Subscribe toour newsletter
+      - generic [ref=f11e56]:
+        - generic [ref=f11e57]: Email
+        - textbox "Email" [ref=f11e58]
+        - button "Submit" [ref=f11e59] [cursor=pointer]
+        - generic [ref=f11e60] [cursor=pointer]:
+          - checkbox "Maecenas mattis sed elit sed elementum." [ref=f11e62]
+          - text: Maecenas mattis sed elit sed elementum.
+  - generic [ref=f11e65]:
+    - button [ref=f11e66]
+    - button [ref=f11e72]
+    - button [ref=f11e76]
+    - button [ref=f11e81]

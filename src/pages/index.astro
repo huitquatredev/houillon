@@ -1,0 +1,13 @@
+---
+import Base from "../layouts/Base.astro";
+import Landing from "../components/landing/Landing.astro";
+---
+
+<Base>
+  <Landing />
+</Base>
+
+<script>
+  import { initLanding } from "../scripts/landing";
+  initLanding();
+</script>

@@ -1,0 +1,54 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e3]:
+    - link [ref=f4e4]:
+      - /url: /home-page/landing-3
+    - button "menu" [ref=f4e5]:
+      - heading "Menu" [level=1] [ref=f4e6]
+      - generic [ref=f4e7]: 
+  - generic [ref=f4e12]:
+    - generic [ref=f4e16]:
+      - heading "TRADITION" [level=1] [ref=f4e18]
+      - heading "passion" [level=1] [ref=f4e20]
+      - heading "FLAVORS" [level=1] [ref=f4e22]
+    - heading "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem velit maximus molestie ac, euismod tempus ex. Aliquam imperdiet elit quis neque venenatis feugiat." [level=2] [ref=f4e25]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem velitmaximus molestie ac, euismod tempus ex. Aliquam imperdiet elit quis neque venenatis feugiat.
+    - heading "care of details" [level=1] [ref=f4e27]
+    - generic [ref=f4e28]:
+      - heading "identity" [level=1] [ref=f4e29]
+      - heading "A synthesis between the territory and Man’s expertise in the cultivation and vinification of the fruits of the earth and the sun" [level=2] [ref=f4e30]
+      - paragraph [ref=f4e31]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+    - generic [ref=f4e32]:
+      - heading "a unique experience of plesant sensation" [level=1] [ref=f4e33]: a uniqueexperienceofplesantsensation
+      - heading "a unique experience of plesant sensation" [level=1] [ref=f4e35]: a uniqueexperienceofplesantsensation
+    - generic [ref=f4e36]:
+      - paragraph [ref=f4e37]: a historic winery with the dream of exporting expertise and tradition, while at the same time, proposing new methods of making wine and above all living wine
+      - paragraph [ref=f4e38]: Integer quis tincidunt urna. Fusce hendrerit nisl quis magna cursus, id sollicitudin justo aliquet.
+      - link [ref=f4e39]:
+        - /url: /about-page/about-3
+        - heading "View More" [level=1] [ref=f4e40]
+    - generic [ref=f4e45]:
+      - paragraph [ref=f4e46]: every drop of our wine is the culmination of a succession of moments and attentive care
+      - generic [ref=f4e48]:
+        - generic [ref=f4e49]: Red
+        - generic [ref=f4e53]: White
+      - link [ref=f4e57]:
+        - /url: /pages/catalogue
+        - heading "View More" [level=1] [ref=f4e58]
+    - heading "extraordinary identity" [level=1] [ref=f4e64]
+    - generic [ref=f4e65]:
+      - heading "Subscribe to our newsletter" [level=1] [ref=f4e67]: Subscribe toour newsletter
+      - form "Email Form" [ref=f4e69]:
+        - textbox "Email" [ref=f4e70]
+        - button "Submit" [ref=f4e71]
+        - generic [ref=f4e72]:
+          - checkbox "Maecenas mattis sed elit sed elementum." [ref=f4e74]
+          - generic [ref=f4e75] [cursor=pointer]: Maecenas mattis sed elit sed elementum.
+  - generic [ref=f4e76]:
+    - link [ref=f4e77] [cursor=pointer]:
+      - /url: /
+    - paragraph [ref=f4e78]: An elegant UI Kit Template suited for Creative Studios, Agencies & Freelancers
+    - link "Buy Now" [ref=f4e79] [cursor=pointer]:
+      - /url: https://webflow.com/templates/html/barrique-ui-kit-website-template
+    - generic [ref=f4e80] [cursor=pointer]
+  - link [ref=f4e81] [cursor=pointer]:
+    - /url: https://webflow.com?utm_campaign=brandjs
+    - img "Made in Webflow" [ref=f4e82]

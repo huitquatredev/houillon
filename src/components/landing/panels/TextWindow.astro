@@ -1,0 +1,12 @@
+---
+import { copy } from "../../../data/landing3";
+
+const heading = copy.blackHeadline.join("<br />");
+---
+
+<div class="container-intro" data-l3="window">
+  <h1 class="black-heading" set:html={heading} />
+  <div class="image-wrapper-scroll" data-window-image>
+    <h1 class="black-heading _2" set:html={heading} />
+  </div>
+</div>

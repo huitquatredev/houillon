@@ -1,0 +1,1261 @@
+/* =========================================================
+   Landing 3 — horizontal scroll / parallax
+   Values ported from the original Webflow stylesheet.
+   ========================================================= */
+
+/* ---------- Shell / horizontal track ---------- */
+
+.landing3 {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landing3 .horizontal-div-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing3 .overflow-mask {
+  flex: 0 auto;
+  order: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.landing3 .horizontal-scrollable-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 600vw;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.landing3 .horizontal-content {
+  display: flex;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* ---------- 01 · bottle ---------- */
+
+.landing3 .container-grid {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+  width: 30vw;
+  height: 100%;
+  position: relative;
+  background-color: var(--white);
+}
+
+.landing3 .size-wrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 100%;
+  background-color: var(--white);
+}
+
+.landing3 .image-landing-2 {
+  width: auto;
+  max-width: 100%;
+  /* height: 95%; */
+  margin-top: 85px;
+}
+
+/* ---------- 02 · headline ---------- */
+
+.landing3 .wrapper-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 100%;
+  padding: 0 80px;
+}
+
+.landing3 .container-heading-landing-2 {
+  z-index: 9;
+  position: relative;
+}
+
+.landing3 .overflow {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing3 .heading-landing-2 {
+  margin: 0;
+  color: var(--black-2);
+  text-transform: uppercase;
+  font-family: "Poiret One", serif;
+  font-size: 18vh;
+  font-weight: 400;
+  line-height: 0.78;
+}
+
+.landing3 .heading-landing-2.second {
+  text-align: right;
+  font-size: 25vh;
+  line-height: 0.9;
+}
+
+/* ---------- 03 · vineyard photo ---------- */
+
+.landing3 .image-wrapper {
+  display: flex;
+  width: 34vw;
+  height: 100%;
+}
+
+.landing3 .about-image {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+}
+
+/* ---------- 04 · quote ---------- */
+
+.landing3 .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 600px;
+  height: 100%;
+  padding: 0 80px 8rem;
+}
+
+.landing3 .text-wrapper.intro-second {
+  width: 40vw;
+  padding-left: 100px;
+  padding-right: 140px;
+}
+
+.landing3 .heading-about-landing-2 {
+  width: 400px;
+  margin: 20px 0 40px;
+  color: var(--black-2);
+  font-family: "Poiret One", serif;
+  font-size: 4.5vh;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.landing3 .heading-about-landing-2._2 {
+  font-size: 4vh;
+}
+
+/* ---------- 05 · care of details ---------- */
+
+.landing3 .container-about-landing-2 {
+  display: flex;
+  align-items: flex-end;
+  width: 100vw;
+  height: 100%;
+  padding: 0 0 8em 8em;
+  background-color: #000;
+  background-image: url("/images/landing3/ventoux2.jpg");
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.landing3 .about-heading {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "Poiret One", serif;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.landing3 .about-heading.absolute {
+  opacity: 0.54;
+  color: var(--black);
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ---------- 06 · identity ---------- */
+
+.landing3 .container-paragraph {
+  z-index: 51;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 1 auto;
+  width: 550px;
+  height: 100%;
+  margin-right: 80px;
+  padding: 80px 100px;
+  position: relative;
+}
+
+.landing3 .container-paragraph._2 {
+  margin-left: 80px;
+}
+
+.landing3 .container-paragraph.in {
+  margin-right: 40px;
+}
+
+.landing3 .sub-heading-landing-3 {
+  width: auto;
+  margin: 20px 0 20px;
+  margin-right: auto;
+  border-bottom: 1px solid var(--dark-red);
+  color: var(--dark-red);
+  text-transform: uppercase;
+  font-family: "Poiret One", serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.landing3 .main-paragraph {
+  margin-bottom: 40px;
+  color: var(--white);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.landing3 .main-paragraph.black {
+  width: auto;
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: var(--black-2);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.landing3 .main-paragraph.black.first {
+  width: 400px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* ---------- 07 · text / image window ---------- */
+
+.landing3 .container-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: flex-start;
+  flex: 0 1 auto;
+  width: 40vw;
+  height: auto;
+  margin: auto 0;
+  padding: 50px 60px;
+  position: relative;
+}
+
+.landing3 .black-heading {
+  margin: 0 0 10px;
+  color: var(--black-2);
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Poiret One", serif;
+  font-size: 13vh;
+  font-weight: 400;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.landing3 .black-heading._2 {
+  z-index: 0;
+  color: #fff;
+  background-color: transparent;
+  white-space: nowrap;
+  top: -50px;
+  left: -60px;
+}
+
+.landing3 .image-wrapper-scroll {
+  z-index: 1;
+  width: 55vh;
+  height: 55vh;
+  position: relative;
+  right: 0;
+  overflow: hidden;
+  background-image: url("/images/landing3/unique.jpg");
+  background-position: 0 100%;
+  background-size: cover;
+}
+
+.landing3 .image-wrapper-scroll.top {
+  background-image: url("/images/landing3/square-2.jpg");
+  background-position: 100% 50%;
+}
+
+.landing3 .image-wrapper-scroll.margin {
+  margin-top: 80px;
+  background-image: url("/images/landing3/square-3.jpg");
+}
+
+/* ---------- 08 · statement ---------- */
+
+.landing3 .button-layout-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-right: auto;
+  padding-top: 60px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.landing3 .heading-button {
+  margin: 0;
+  color: var(--dark-red);
+  font-family: "Poiret One", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.landing3 .wrapper-landing-3 {
+  width: 100%;
+  height: 1px;
+  background-color: var(--dark-red);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.45s var(--ease-out);
+}
+
+/* ---------- 09 · video ---------- */
+
+.landing3 .video-background {
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing3 .background-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.landing3 .filter-white {
+  z-index: 3;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+/* ---------- 10 · bottle picker ---------- */
+
+.landing3 .wrapper-change-image {
+  height: 50vh;
+  margin-top: 40px;
+  position: relative;
+}
+
+.landing3 .bottle-image-landing3 {
+  width: auto;
+  height: 100%;
+}
+
+.landing3 .bottle-image-landing-3 {
+  opacity: 0;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.landing3 .navigation-wrap.layout-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  background-color: transparent;
+}
+
+.landing3 .button-bottle-landing-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px 20px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.landing3 .wrapper-image-3 {
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.landing3 .wrapper-3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: var(--dark-red);
+}
+
+.landing3 .wrapper-3.white {
+  background-color: var(--gold);
+}
+
+.landing3 .button-text {
+  margin-top: 5px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* ---------- 11 · glass ---------- */
+
+.landing3 .container-image {
+  width: 74vh;
+  height: 100vh;
+  margin-right: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing3 .bottle-image-landing-2 {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  position: static;
+}
+
+.landing3 .bottle-image-landing-2.absolute {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: auto;
+}
+
+/* ---------- 12 · drifting squares ---------- */
+
+/* (uses .container-intro / .image-wrapper-scroll) */
+
+/* ---------- 13 · marquee ---------- */
+
+.landing3 .bg-start {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 0;
+  position: relative;
+  background-image: url("/images/landing3/about-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+/* ---------- 14 · newsletter ---------- */
+
+.landing3 .contact-grid-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 0 1 auto;
+  width: auto;
+  height: 100%;
+  padding: 34px 140px;
+  color: var(--black);
+}
+
+.landing3 .overflow-mask-landing-3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing3 .overflow-heading-2.white.contact {
+  margin: 0 0 40px;
+  color: var(--white);
+  font-family: "Poiret One", serif;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.landing3 .contact-form-landing-3 {
+  width: 100%;
+}
+
+.landing3 .form-landing-3 {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+  position: relative;
+}
+
+.landing3 .email-field {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 41px;
+  margin: 0;
+  padding: 8px 12px 8px 0;
+  border: 0;
+  border-bottom: 1px solid var(--dark-red);
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+  color: #333;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.landing3 .email-field::placeholder {
+  color: #333;
+  opacity: 1;
+}
+
+.landing3 .submit-button-password {
+  margin: 0;
+  padding: 10px 30px;
+  border: 0;
+  border-bottom: 1px solid var(--dark-red);
+  background-color: transparent;
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  cursor: pointer;
+  transition:
+    background-color 0.4s,
+    color 0.4s ease-in-out;
+}
+
+.landing3 .checkbox-field-2 {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-left: 20px;
+  position: absolute;
+  bottom: -56px;
+  left: 0;
+  cursor: pointer;
+}
+
+.landing3 .checkbox-field-2 input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.landing3 .checkbox-4 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px 0 0 -20px;
+  border: 1px solid var(--dark-red);
+  background-color: transparent;
+  vertical-align: top;
+}
+
+.landing3 .checkbox-label-3 {
+  margin-left: 8px;
+  color: #8f8f8f;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* =========================================================
+   Hover / pointer
+   ========================================================= */
+
+.landing3 .bottle-image-landing3,
+.landing3 .bottle-image-landing-3,
+.landing3 .bottle-image-landing-2.absolute {
+  transition:
+    opacity 0.5s var(--ease-out),
+    transform 0.5s var(--ease-out);
+}
+
+.landing3 .container-paragraph.in.is-white .bottle-image-landing3 {
+  opacity: 0;
+}
+
+.landing3 .container-paragraph.in.is-white .bottle-image-landing-3 {
+  opacity: 1;
+}
+
+.landing3 .bottle-image-landing-2.absolute {
+  transform: translateY(100px);
+}
+
+.landing3
+  .container-paragraph.in.is-preview-red
+  + .container-image
+  [data-glass="red"],
+.landing3
+  .container-paragraph.in.is-preview-white
+  + .container-image
+  [data-glass="white"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.landing3 .button-bottle-landing-3.is-active .wrapper-image-3 {
+  border-color: var(--dark-red);
+}
+
+.landing3 .button-bottle-landing-3.is-active .button-text {
+  color: var(--dark-red);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .landing3 .button-layout-2:hover .wrapper-landing-3,
+  .landing3 .button-layout-2:focus-visible .wrapper-landing-3 {
+    transform: scaleX(1);
+  }
+
+  .landing3 .submit-button-password:hover {
+    background-color: var(--dark-red);
+    color: #fff;
+  }
+
+  .landing3 .button-bottle-landing-3:hover .wrapper-image-3 {
+    border-color: var(--dark-red);
+  }
+}
+
+/* =========================================================
+   ≥ 1440px — source breakpoint
+   ========================================================= */
+
+@media screen and (min-width: 1440px) {
+  .landing3 .overflow-mask {
+    align-self: flex-start;
+    width: auto;
+  }
+
+  .landing3 .horizontal-scrollable-section {
+    width: auto;
+  }
+
+  .landing3 .container-grid {
+    width: 20vw;
+    height: 100vh;
+  }
+
+  .landing3 .wrapper-heading {
+    z-index: 2;
+    align-items: center;
+    position: relative;
+  }
+
+  .landing3 .heading-landing-2 {
+    font-size: 25vh;
+  }
+
+  .landing3 .about-image {
+    display: block;
+    bottom: 0;
+  }
+
+  .landing3 .text-wrapper {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .landing3 .text-wrapper.intro-second {
+    justify-content: center;
+    width: auto;
+    padding-bottom: 0;
+    padding-left: 100px;
+    padding-right: 140px;
+  }
+
+  .landing3 .heading-about-landing-2 {
+    width: 450px;
+    max-width: 100%;
+    margin-bottom: 0;
+    font-size: 4.5vh;
+  }
+
+  .landing3 .container-about-landing-2 {
+    width: 80vw;
+  }
+
+  .landing3 .about-heading {
+    width: auto;
+    font-size: 140px;
+  }
+
+  .landing3 .about-heading.absolute {
+    z-index: 2;
+    opacity: 0.54;
+    color: var(--black);
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+
+  .landing3 .container-paragraph {
+    width: 550px;
+    padding-right: 100px;
+  }
+
+  .landing3 .container-paragraph._2 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .landing3 .main-paragraph {
+    font-size: 18px;
+  }
+
+  .landing3 .main-paragraph.black {
+    width: 600px;
+    max-width: 100%;
+    margin-top: 20px;
+    color: var(--black-2);
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .landing3 .main-paragraph.black.first {
+    width: 450px;
+    text-transform: uppercase;
+  }
+
+  .landing3 .sub-heading-landing-3 {
+    font-size: 1vw;
+  }
+
+  .landing3 .button-layout-2 {
+    z-index: 3;
+    position: relative;
+  }
+
+  .landing3 .bottle-image-landing-2.absolute {
+    height: 100%;
+  }
+
+  .landing3 .bottle-image-landing3 {
+    width: 85%;
+    height: auto;
+  }
+
+  .landing3 .bg-start {
+    width: 100vw;
+    position: relative;
+  }
+
+  .landing3 .overflow-heading-2.white.contact {
+    margin-bottom: 40px;
+    font-size: 5vw;
+  }
+
+  .landing3 .contact-grid-card-text {
+    align-items: stretch;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+/* =========================================================
+   Initial states for the load animation (desktop only)
+   ========================================================= */
+
+@media screen and (min-width: 992px) and (prefers-reduced-motion: no-preference) {
+  html.is-horizontal .landing3 .image-landing-2 {
+    transform: translateX(0) scale(1);
+    opacity: 0;
+  }
+
+  html.is-horizontal .landing3 .heading-landing-2 {
+    transform: translateY(100%);
+  }
+}
+
+/* =========================================================
+   Stacked layout — mobile, no-JS and reduced motion
+   ========================================================= */
+
+@media screen and (max-width: 991px), (prefers-reduced-motion: reduce) {
+  .landing3 {
+    height: auto;
+    overflow: visible;
+  }
+
+  .landing3 .horizontal-div-wrapper {
+    height: auto;
+    align-items: stretch;
+    position: static;
+    overflow: visible;
+  }
+
+  .landing3 .overflow-mask {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .landing3 .horizontal-scrollable-section {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    overflow: visible;
+    will-change: auto;
+    transform: none !important;
+  }
+
+  .landing3 .horizontal-content {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .landing3 .container-grid {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .landing3 .size-wrapper {
+    position: static;
+    width: auto;
+    height: auto;
+    display: block;
+  }
+
+  .landing3 .image-landing-2 {
+    height: 50vh;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  .landing3 .wrapper-heading {
+    width: 100%;
+    height: auto;
+    padding: 80px 40px;
+  }
+
+  .landing3 .container-heading-landing-2 {
+    width: 100%;
+  }
+
+  .landing3 .heading-landing-2,
+  .landing3 .heading-landing-2.second {
+    font-size: 15vh;
+    transform: none !important;
+  }
+
+  .landing3 .image-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 0 40px;
+  }
+
+  .landing3 .about-image {
+    width: 100%;
+  }
+
+  .landing3 .navigation-wrap.layout-3 {
+    padding-right: 30px;
+  }
+
+  .landing3 .sub-heading-landing-3 {
+    font-size: 2vw;
+  }
+
+  .landing3 .text-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 0 40px 8rem;
+  }
+
+  .landing3 .text-wrapper.intro-second {
+    width: 100%;
+    align-items: flex-start;
+    padding: 0 40px 8rem;
+  }
+
+  .landing3 .heading-about-landing-2 {
+    width: 100%;
+  }
+
+  .landing3 .container-about-landing-2 {
+    width: 100%;
+    height: auto;
+    padding: 100px 40px 40px;
+  }
+
+  .landing3 .about-heading {
+    margin-bottom: 0;
+    font-size: 100px;
+  }
+
+  .landing3 .about-heading.absolute {
+    position: static;
+    white-space: normal;
+    left: auto;
+  }
+
+  .landing3 .container-paragraph,
+  .landing3 .container-paragraph._2,
+  .landing3 .container-paragraph.in {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 80px 40px;
+  }
+
+  .landing3 .container-intro {
+    width: 100%;
+    height: auto;
+    padding: 50px 60px;
+  }
+
+  .landing3 .video-background._2 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .landing3 .container-image {
+    display: none;
+  }
+
+  .landing3 .bg-start {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .landing3 .contact-grid-card-text {
+    width: 100%;
+    height: auto;
+    padding: 100px 108px 100px 100px;
+    background-color: var(--black-2);
+  }
+
+  .landing3 .overflow-heading-2.white.contact {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 10vw;
+  }
+}
+
+/* =========================================================
+   ≤ 767px
+   ========================================================= */
+
+@media screen and (max-width: 767px) {
+  .landing3 .container-grid {
+    height: auto;
+    padding: 140px 0;
+  }
+
+  .landing3 .heading-landing-2,
+  .landing3 .heading-landing-2.second {
+    font-size: 15vh;
+  }
+
+  .landing3 .heading-about-landing-2 {
+    font-size: 4vh;
+  }
+
+  .landing3 .container-paragraph._2 {
+    margin-left: 0;
+  }
+
+  .landing3 .image-wrapper-scroll {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .landing3 .container-intro {
+    padding-left: 43px;
+  }
+
+  .landing3 .black-heading {
+    font-size: 9vh;
+  }
+
+  .landing3 .black-heading._2 {
+    font-size: 9vh;
+    left: -43px;
+  }
+
+  .landing3 .video-background._2 {
+    left: 0;
+  }
+
+  .landing3 .container-image {
+    height: 80vh;
+  }
+
+  .landing3 .contact-grid-card-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* =========================================================
+   ≤ 479px
+   ========================================================= */
+
+@media screen and (max-width: 479px) {
+  .landing3 .container-grid {
+    padding: 60px 0;
+  }
+
+  .landing3 .heading-landing-2,
+  .landing3 .heading-landing-2.second {
+    font-size: 15vw;
+  }
+
+  .landing3 .image-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .landing3 .text-wrapper.intro-second {
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .landing3 .heading-about-landing-2,
+  .landing3 .heading-about-landing-2._2 {
+    font-size: 25px;
+  }
+
+  .landing3 .container-about-landing-2 {
+    padding: 140px 20px 60px;
+  }
+
+  .landing3 .about-heading {
+    font-size: 40px;
+  }
+
+  .landing3 .about-heading.absolute {
+    font-size: 12.5vw;
+  }
+
+  .landing3 .container-paragraph {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .landing3 .container-paragraph._2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .landing3 .image-wrapper-scroll.margin {
+    width: 90vw;
+    height: 90vw;
+    margin-top: 40px;
+  }
+
+  .landing3 .image-wrapper-scroll.top {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .landing3 .main-paragraph.black.first {
+    width: auto;
+  }
+
+  .landing3 .container-intro {
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .landing3 .black-heading {
+    font-size: 17vw;
+  }
+
+  .landing3 .black-heading._2 {
+    font-size: 17vw;
+    left: -57px;
+  }
+
+  .landing3 .video-background._2 {
+    height: 500px;
+  }
+
+  .landing3 .bg-start {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .landing3 .sub-heading-landing-3 {
+    font-size: 5vw;
+  }
+
+  .landing3 .contact-grid-card-text {
+    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* =========================================================
+   No-JS fallback — readable stacked column
+   ========================================================= */
+
+html.no-js .landing3 {
+  height: auto;
+  overflow: visible;
+}
+
+html.no-js .landing3 .horizontal-div-wrapper,
+html.no-js .landing3 .overflow-mask,
+html.no-js .landing3 .horizontal-scrollable-section,
+html.no-js .landing3 .horizontal-content {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: static;
+  overflow: visible;
+  transform: none !important;
+}
+
+html.no-js .landing3 .horizontal-content > * {
+  width: 100% !important;
+  max-width: none;
+  height: auto;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+html.no-js .landing3 .container-grid {
+  display: flex;
+  height: 80vh;
+}
+
+html.no-js .landing3 .size-wrapper {
+  position: static;
+  width: auto;
+  height: 80vh;
+}
+
+html.no-js .landing3 .image-landing-2 {
+  height: 70vh;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+html.no-js .landing3 .wrapper-heading {
+  padding: 80px 40px;
+}
+
+html.no-js .landing3 .heading-landing-2,
+html.no-js .landing3 .heading-landing-2.second {
+  font-size: 17vw;
+  transform: none !important;
+}
+
+html.no-js .landing3 .about-image {
+  width: 100%;
+}
+
+html.no-js .landing3 .text-wrapper,
+html.no-js .landing3 .text-wrapper.intro-second {
+  width: 100%;
+  align-items: flex-start;
+  padding: 0 40px 8rem;
+}
+
+html.no-js .landing3 .heading-about-landing-2 {
+  width: 100%;
+}
+
+html.no-js .landing3 .container-about-landing-2 {
+  padding: 100px 40px 40px;
+}
+
+html.no-js .landing3 .container-paragraph,
+html.no-js .landing3 .container-paragraph._2,
+html.no-js .landing3 .container-paragraph.in {
+  padding: 80px 40px;
+}
+
+html.no-js .landing3 .video-background,
+html.no-js .landing3 .video-background._2,
+html.no-js .landing3 .bg-start {
+  width: 100%;
+  height: 100vh;
+}
+
+html.no-js .landing3 .container-image {
+  display: none;
+}
+
+html.no-js .landing3 .contact-grid-card-text {
+  width: 100%;
+  padding: 100px 40px;
+  background-color: var(--black-2);
+}

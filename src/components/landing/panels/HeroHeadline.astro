@@ -1,0 +1,36 @@
+---
+import { assets, copy } from "../../../data/landing3"
+
+const lines = [
+  { text: copy.headline[0], cls: "" },
+  { text: copy.headline[1], cls: "second" },
+  { text: copy.headline[2], cls: "" }
+]
+---
+
+<div class="container-grid">
+  <div class="size-wrapper">
+    <img
+      class="image-landing-2"
+      src={assets.bottleHero}
+      alt="Barrique bottle"
+      fetchpriority="high"
+      decoding="async"
+      data-hero-bottle
+    />
+  </div>
+</div>
+
+<div class="wrapper-heading">
+  <div class="container-heading-landing-2">
+    {
+      lines.map((line, index) => (
+        <div class={`${index === 0 ? "" : "overflow"}`}>
+          <h1 class={`heading-landing-2 ${line.cls}`} data-line>
+            {line.text}
+          </h1>
+        </div>
+      ))
+    }
+  </div>
+</div>

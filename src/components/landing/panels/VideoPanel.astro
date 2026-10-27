@@ -1,0 +1,21 @@
+---
+import { assets } from "../../../data/landing3";
+---
+
+<div class="video-background _2" data-video-panel>
+  <div class="filter-white" aria-hidden="true"></div>
+  <video
+    class="background-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster={assets.poster}
+    aria-hidden="true"
+    tabindex="-1"
+    data-video
+  >
+    <source src={assets.video} type="video/mp4" />
+  </video>
+</div>
